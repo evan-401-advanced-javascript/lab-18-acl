@@ -1,0 +1,41 @@
+{
+  "name": "access-control-server",
+  "version": "1.0.0",
+  "description": "## Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "startDB": "mkdir -p ./data/db && mongod --dbpath ./data/db",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cf-supergoose": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "jsdoc": "^3.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.11",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "superagent": "^5.1.0"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evan-401-advanced-javascript/lab-18-acl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evan-401-advanced-javascript/lab-18-acl/issues"
+  },
+  "homepage": "https://github.com/evan-401-advanced-javascript/lab-18-acl#readme"
+}
